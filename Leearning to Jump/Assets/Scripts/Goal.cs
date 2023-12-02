@@ -17,12 +17,12 @@ public class Goal : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other) // collision function
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player")) //if it touches  player
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Level2"); //load level 2 scene
         }
 
     }
