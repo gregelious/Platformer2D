@@ -24,13 +24,13 @@ public class Health : MonoBehaviour
     {
         currentHealth -= amount;                        //lower health
 
-        if (currentHealth == 2)
+        if (currentHealth == 2) //if health is 2
         {
-            hp2.SetActive(false);
+            hp2.SetActive(false); //then make live 2 dissapear
         }
-        if (currentHealth == 1)
+        if (currentHealth == 1) //if health is 1
         {
-            hp1.SetActive(false);
+            hp1.SetActive(false); //then make live 1 dissapear
         }
 
         if (currentHealth <= 0)                         //if health equal zero
