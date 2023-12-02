@@ -6,7 +6,7 @@ public class CamMove : MonoBehaviour
 {
 
     //variable
-    public GameObject target;
+    public GameObject target; //target is what the camera will follow
 
 
     // Start is called before the first frame update
